@@ -2,8 +2,8 @@ package H1oefeningen.oefening5;
 
 public class SpaceShipApp {
     static void main() {
-        Spaceship galactica = new Spaceship();
-        Spaceship shade = new Spaceship();
+        SpaceShip galactica = new SpaceShip();
+        SpaceShip shade = new SpaceShip();
         galactica.setName("BS Galactica");
         shade.setName("STS Shade");
         galactica.setShieldsOn();

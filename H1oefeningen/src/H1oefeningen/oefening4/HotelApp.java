@@ -19,8 +19,10 @@ public class HotelApp {
             hotel.setAantalSterren(input.nextInt());
             System.out.print("geef een kindercode: ");
             hotel.setKindercode(input.next().charAt(0));
+            double prijsVol = hotel.getPrijs();
+            double prijsKind = hotel.getPrijsKind();
             printString.append(String.format("%s %5s %4.2f %4.2f %4.2f%n",
-                    hotel.getHotelCode(), hotel.getSterren(), hotel.getPrijs(), hotel.getPrijsKind(), aantalKind * hotel.getPrijsKind() + aantalVol * hotel.getPrijs()));
+                    hotel.getHotelCode(), hotel.getSterren(), prijsVol, prijsKind, aantalKind * prijsKind + aantalVol * prijsVol));
 
             System.out.print("geef een hotelcode: ");
             code = input.next();

@@ -40,13 +40,6 @@ public class Phone {
         this.provider = provider;
     }
 
-    public void setNumberOfCalls(int numberOfCalls) {
-        this.numberOfCalls = numberOfCalls;
-    }
-
-    public void setNumberOfFreeCalls(int numberOfFreeCalls) {
-        this.numberOfFreeCalls = numberOfFreeCalls;
-    }
 
     public void call(String nummer) {
         System.out.printf("calling %s%n", nummer);
