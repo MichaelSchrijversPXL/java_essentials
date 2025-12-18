@@ -1,4 +1,4 @@
-package be.pxl.h2.oef3;
+package oefeningen.oef3.JE_H2_Constructors_startbestanden;
 
 public class GameOfThrones {
 
