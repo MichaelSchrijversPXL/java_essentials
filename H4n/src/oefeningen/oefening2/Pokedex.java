@@ -3,7 +3,7 @@ package oefeningen.oefening2;
 public class Pokedex {
     private Pokemon[] pokemon;
 
-    Pokedex(int lengte) {
+    public Pokedex(int lengte) {
         pokemon = new Pokemon[lengte];
     }
 
