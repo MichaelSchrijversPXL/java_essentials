@@ -9,7 +9,7 @@ public class Gondelbaan {
     private int snelheid;
     private int passagiersPerGondel;
     private int aantalGondels;
-    private final String[] TOEGELATEN = {"Frankrijk", "Oostenrijk", "Zwitserland", "Italië"};
+    private static final String[] TOEGELATEN = {"Frankrijk", "Oostenrijk", "Zwitserland", "Italië"};
 
     public Gondelbaan(String naam, String land, double lengte, int snelheid) {
         setNaam(naam);
